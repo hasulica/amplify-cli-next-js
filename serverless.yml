@@ -1,0 +1,4 @@
+# serverless.yml
+
+test-next-js-deploy:
+  component: "@sls-next/serverless-component@1.18.0"

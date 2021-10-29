@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "testnextjsdeploy00c6e181": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
