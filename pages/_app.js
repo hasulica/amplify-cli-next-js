@@ -3,14 +3,14 @@ import Link from "next/link";
 import { css } from "@emotion/css";
 
 import Amplify from "aws-amplify";
-import config from "../src/aws-exports";
+
 Amplify.configure({
   Auth: {
     region: "eu-west-1",
-    userPoolId: "eu-west-1_jr7JdMNgh",
-    userPoolWebClientId: "4idn969qsu40qsdj37t8lr6gje",
+    userPoolId: "eu-west-1_BMGF7ujKs",
+    userPoolWebClientId: "4485u1li8hrkpdms7uua5c01bk",
     oauth: {
-      domain: "nextauthentication9735d8e3.auth.eu-west-1.amazoncognito.com",
+      domain: "manula-user-pool-test.auth.eu-west-1.amazoncognito.com",
       scope: ["email", "openid", "profile"],
       redirectSignIn: "https://d3qvp99jqrixxb.cloudfront.net",
       redirectSignOut: "https://d3qvp99jqrixxb.cloudfront.net",
