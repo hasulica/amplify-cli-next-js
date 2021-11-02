@@ -12,8 +12,8 @@ Amplify.configure({
     oauth: {
       domain: "manula-user-pool-test.auth.eu-west-1.amazoncognito.com",
       scope: ["email", "openid", "profile"],
-      redirectSignIn: "https://d3qvp99jqrixxb.cloudfront.net",
-      redirectSignOut: "https://d3qvp99jqrixxb.cloudfront.net",
+      redirectSignIn: "https://main.d195wvodvjhud5.amplifyapp.com/",
+      redirectSignOut: "https://main.d195wvodvjhud5.amplifyapp.com/",
       responseType: "code",
     },
   },
